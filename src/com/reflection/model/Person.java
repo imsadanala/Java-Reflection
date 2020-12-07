@@ -11,10 +11,22 @@ public class Person {
 	private String name;
 	private Boolean gender;
 
+	public Person() {
+	}
+
 	public Person(String name, Boolean gender) {
 		super();
 		this.name = name;
 		this.gender = gender;
+	}
+
+	/**
+	 * 
+	 * @param name
+	 * @return
+	 */
+	private String greet(String name) {
+		return "Hello " + name;
 	}
 
 	public String getName() {

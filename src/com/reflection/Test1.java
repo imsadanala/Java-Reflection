@@ -9,7 +9,7 @@ import java.util.Arrays;
  * @author Suresh Sadanala
  *
  */
-public class Test {
+public class Test1 {
 	public static void main(String[] args) throws ClassNotFoundException {
 		Class<?> c = Class.forName("com.reflection.model.Person");
 		System.out.println("-----constructors-------");
