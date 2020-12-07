@@ -8,8 +8,10 @@ package com.reflection.model;
  *
  */
 public class Person {
+	
 	private String name;
 	private Boolean gender;
+	private Integer salary = 6000;
 
 	public Person() {
 	}

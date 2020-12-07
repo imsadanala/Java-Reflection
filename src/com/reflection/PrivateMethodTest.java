@@ -12,7 +12,7 @@ import com.reflection.model.Person;
  * @author Suresh Sadanala to invoke private methods from another class using
  *         reflection
  */
-public class Test2 {
+public class PrivateMethodTest {
 
 	public static void main(String[] args) {
 
